@@ -20,7 +20,7 @@ describe('forums automadesk homepage', function() {
 		var loggedInElements = browser.driver.findElements(by.css('.loggedIn'));
 
 		loggedInElements.then(function(values){
-			expect(values.length).toBeGreaterThan(0);
+			expect(values.length).toBeGreaterThan(0);  
 		});
 	})
 
